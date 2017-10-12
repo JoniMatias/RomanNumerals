@@ -17,7 +17,7 @@ public class TestRomanNumerals {
 	public void testConvertToRoman_3888() {
 		RomanNumerals roman = new RomanNumerals();
 		
-		String str = roman.convertToRoman(3888);
+		String str =  roman.convertToRoman(3888);
 		
 		assertEquals("Numeral converted wrong", "MMMDCCCLXXXVIII", str);
 	}
